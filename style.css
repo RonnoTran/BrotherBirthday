@@ -1,0 +1,106 @@
+
+body, html {
+	height: 100%;
+	margin: 0;
+}
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+	0%{color: orange;}	
+	10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}	
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+	0%{color: orange;}	
+	10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}	
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+	0%{color: orange;}	
+	10%{color: purple;}	
+	20%{color: red;}
+	40%{color: yellow;}
+	60%{color: green;}
+	100%{color: blue;}
+	100%{color: orange;}
+}
+	
+
+
+#card {
+	/* for the background */
+	background-image: url(https://media.gettyimages.com/photos/sky-background-on-sunset-picture-id521466668?b=1&k=6&m=521466668&s=612x612&w=0&h=wDGKLBk8AR72TsQoLkUoe86Sg7T5dzVmUFStn3w3xW4=) ;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#card-detail {
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 30px;
+	padding-top: 100px;
+}
+
+.open-button {
+	background: #eb94d0;
+	background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+	background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+	background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+	background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+	background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+	
+	/* border radius */
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	
+	text-shadow: 3px 2px 1px #9daef5;
+	-webkit-box-shadow: 6px 5px 24px #666666;
+	-moz-box-shadow: 6px 5px 24px #666666;
+	box-shadow: 6px 5px 24px #666666;
+	
+	color: black;
+	font-size: 27px;
+	padding: 19px;
+	text-decoration: none;
+}
+
+.open-button:hover {
+	background: #2079b0;
+	background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+	background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+	background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+	background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+	background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+}
+
+img {
+	width: 300 px;
+	
+}
+
